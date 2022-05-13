@@ -1,0 +1,55 @@
+.main_div{
+    display: flex;
+    background-color: black;
+    height: 90px;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+}
+.menu{
+    width: 30%;
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+.menu a {
+    padding: 0px 10px;
+    font-weight: 600;
+    text-decoration: none;
+} 
+.menu a:hover {
+    color: yellow;
+}
+.search{
+    width: 30%;
+    color: white;
+}
+.search>input{
+    padding: 4px 90px 4px 10px;
+    border-radius: 7px;
+}
+.search>button{
+    background-color: white;
+    color: black;
+    padding: 3px 9px ;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+.cart{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+}
+.signin{
+    width: 10%;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+    color: white;
+    font-weight: 600;
+}

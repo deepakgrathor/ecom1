@@ -1,0 +1,65 @@
+.top-footer{
+    display: flex;
+    padding: 80px 20px;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+}
+.logo-section{
+    width: 30%;
+}
+.usefull-links1{
+    width: 20%;
+    margin-left: 30px;
+}
+.usefull-links2{
+    width: 20%;
+    padding-top: 40px;
+}
+.subscribe{
+    width: 30% ;
+}
+.social-icon{
+    display: flex;
+}
+.social-icon>img{
+    width: 45px;
+    padding: 0px 10px;
+}
+.bottom-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+.useful-a>a{
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0px;
+    text-decoration: none;
+}
+.useful-a>a:hover{
+    color: yellow;
+}
+.usefull>h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.logo-section>p{
+    margin: 35px 0px;
+}
+.subscribe>h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.subscribe>p{
+    margin: 20px 0px;
+}
+.subscribe>input{
+    padding: 5px 25px;
+}
